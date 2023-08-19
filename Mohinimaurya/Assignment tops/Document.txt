@@ -1,0 +1,17 @@
+php
+core php
+database
+oops concepts
+cms
+crm
+framework: laravel
+use of inclde,require
+function array more 10
+string
+cookie-syntax
+how many submitted data in form
+curd operation
+patterns
+multiplication table
+
+

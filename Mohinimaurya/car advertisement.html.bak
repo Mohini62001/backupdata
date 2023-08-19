@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Car Advertisement</title>
+<h1 style="text-align:center";>Car Advertisement</h1>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<form action="" method="post" enctype="multipart / form-data">
+<table align="center" class="table-hover table-bordered">
+<tr>
+<th colspan="2" style="text-align:center;" class="form-control ">Car Information</th>
+</tr>
+<tr>
+<td><b>Car No.</b></td>
+<td><input type="number" class="form-control form-control" name="carno" required></td>
+</tr>
+<tr>
+<td><b>RC No.</b></td>
+<td><input type="number" class="form-control form-control" name="rcno" required></td>
+</tr>
+<tr>
+<td><b>Title</b></td>
+<td><input type="text" class="form-control form-control "name="title" size="50"></td>
+</tr>
+<tr>
+<td><b>Image</b></td>
+<td><input type="image" class="form-control form-control" name="image"></td>
+</tr>
+<tr>
+<td><b>Description</b></td>
+<td><textarea name="description" textarea class="form-control" cols="100" rows="10"></textarea></td>
+</tr>
+<tr>
+<td><b>Terms & Conditions</b></td>
+<td><textarea name="terms&cond" textarea class="form-control" cols="100" rows="50"></textarea></td>
+</tr>
+<tr>
+<td><b>Post status</b></td>
+<td><input type="text" class="form-control form-control" name="poststatus"></td>
+</tr>
+<tr>
+<td><b>Car status</b></td>
+<td><input type="text" class="form-control form-control" name="carstatus"></td>
+</tr>
+<td colspan="2" align="center";><input type="button"  class="btn btn-secondary" name="submit" value="Register"></td>
+</table>
+
+</form>
+</body>
+</html>
